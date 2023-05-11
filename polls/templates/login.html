@@ -69,12 +69,12 @@
             margin-left: 70px;
         }
 		body{
-			background: url(../static/01.jpg) top left;
+			background: url(../static/img/01.jpg) top left;
 			background-size: 100%;
 		}
 	</style>
 	<body>
-        <a href="http://127.0.0.1:8000/admin">Administrator</a>
+        <a href="http://127.0.0.1:8000/admin">管理员登陆</a>
 		<div id="div-title">
 			<h3>欢迎登陆</h3>
 		</div>
@@ -91,7 +91,7 @@
                 {%  csrf_token %}
 
                 <div id="img-control">
-                    <img src="../static/tx.jpg" id="login-img" alt="头像"/>
+                    <img src="../static/img/tx.jpg" id="login-img" alt="头像"/>
                 </div>
                 <label class="form-label" >账&nbsp;号</label>
 				<input name="user" class="form-input" type="text" required="required"/><br>
